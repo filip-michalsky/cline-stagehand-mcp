@@ -1,0 +1,17 @@
+{
+  "name": "typescript-hello-world",
+  "version": "1.0.0",
+  "description": "A simple TypeScript Hello World example",
+  "main": "dist/hello.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/hello.js",
+    "dev": "ts-node hello.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
+  }
+} 
