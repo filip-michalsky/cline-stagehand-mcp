@@ -6,12 +6,17 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/hello.js",
-    "dev": "ts-node hello.ts"
+    "dev": "ts-node hello.ts",
+    "update-mcp-settings": "ts-node update_mcp_settings.ts",
+    "test-env-mcp": "ts-node test_env_mcp.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7"
+  },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0",
     "ts-node": "^10.9.1",
-    "@types/node": "^18.0.0"
+    "typescript": "^5.0.0"
   }
-} 
+}
